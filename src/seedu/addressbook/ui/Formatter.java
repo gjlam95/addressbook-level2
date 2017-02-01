@@ -24,12 +24,6 @@ public class Formatter {
 	return "\t%1$d. %2$s";
     }
 
-
-    /** Offset required to convert between 1-indexing and 0-indexing.  */
-    public int offset() {
-	return 1;
-    }
-
     /** Format of a comment input line. Comment lines are silently consumed when reading user input. */
     public String commentInputLine() {
 	return "#.*";
