@@ -4,8 +4,8 @@ import seedu.addressbook.data.exception.IllegalValueException;
 
 public class Contact {
 
-    private final String value;
-    private boolean isPrivate;
+    public final String value;
+    public boolean isPrivate;
     
     public Contact(String value, boolean isPrivate) throws IllegalValueException {
         this.isPrivate = isPrivate;
